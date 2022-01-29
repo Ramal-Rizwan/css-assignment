@@ -1,0 +1,139 @@
+header, section, footer, aside, nav, article, figure, figcaption { 
+    display: block;} 
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .pics{
+      text-align: right;
+  }
+  .wrapper{
+      background-color: orange;
+      color: white;
+   
+      
+
+  }
+
+
+  nav, footer { 
+    clear: both; 
+    color: #ffffff; 
+    background-color: rgb(65, 7, 7); 
+    height: 30px;} 
+    nav ul { 
+    margin: 0px; 
+    padding: 5px 0px 5px 30px;} 
+    nav li { 
+    display: inline; 
+    margin-right: 40px;} 
+    nav li a { 
+   
+   
+   
+    color: #ffffff;} 
+    nav li a:hover, nav li a.current { 
+    color: #000000;} 
+
+    .bg{
+        background-color: rgb(245, 214, 174);
+        padding: 10px;
+        width: auto;
+        height: 20em;
+    }
+.one{
+    margin: 20px;
+    background-color: rgb(65, 7, 7);
+    padding: 10px;
+    height: 15em;
+    color: white;
+    
+        float: left; 
+    display:inline;}
+        
+    .p { 
+    font-size: 90%; 
+    text-align: right;} 
+    .two{
+        display: inline;
+        
+    }
+    article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: rgb(231, 208, 231);
+        height: 800px; /* only for demonstration, should be removed */
+      }
+      
+      /* Clear floats after the columns */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .box1{
+          margin: 5%;
+          padding: 5px;
+          list-style-type: none;
+          background-color: blue;
+          color: white;
+        
+      }
+      aside{
+          background-color: burlywood;
+          height: 800%;
+      }
+      .sp{
+          width: 11%;
+          height: 11%;
+          text-align: center;
+      }
+      .flex-container {
+        display: flex;
+    color: white;
+   
+      background-color: rgb(65, 7, 7);
+      }
+
+
+      
+      td {
+        border: 1px solid #0088dd;
+        padding: 15px;}
+
+    .footer{
+        background-color: blue;
+        height: 100%;
+        color: white;
+        text-align: center;
+    }
+     
